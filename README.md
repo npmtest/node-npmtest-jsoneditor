@@ -1,6 +1,6 @@
 # npmtest-jsoneditor
 
-#### test coverage for  [jsoneditor (v5.6.0)](https://github.com/josdejong/jsoneditor)  [![npm package](https://img.shields.io/npm/v/npmtest-jsoneditor.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jsoneditor) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jsoneditor.svg)](https://travis-ci.org/npmtest/node-npmtest-jsoneditor)
+#### basic test coverage for  [jsoneditor (v5.6.0)](https://github.com/josdejong/jsoneditor)  [![npm package](https://img.shields.io/npm/v/npmtest-jsoneditor.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jsoneditor) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jsoneditor.svg)](https://travis-ci.org/npmtest/node-npmtest-jsoneditor)
 
 #### A web-based tool to view, edit, format, and validate JSON
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-jsoneditor/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-jsoneditor/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-jsoneditor/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-jsoneditor/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jsoneditor/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jsoneditor/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-jsoneditor/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-jsoneditor/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jsoneditor/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jsoneditor/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-jsoneditor/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-jsoneditor/build/coverage.html/index.html)
 
@@ -90,7 +90,8 @@
         "viewer",
         "formatter"
     ],
-    "version": "5.6.0"
+    "version": "5.6.0",
+    "bin": {}
 }
 ```
 
